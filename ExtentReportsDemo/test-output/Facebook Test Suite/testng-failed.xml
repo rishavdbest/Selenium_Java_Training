@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Facebook Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login Test Case(failed)">
+    <classes>
+      <class name="testNGextent.LoginPage">
+        <methods>
+          <include name="init"/>
+          <include name="exit"/>
+          <include name="sampleReport"/>
+        </methods>
+      </class> <!-- testNGextent.LoginPage -->
+    </classes>
+  </test> <!-- Login Test Case(failed) -->
+</suite> <!-- Failed suite [Facebook Test Suite] -->
